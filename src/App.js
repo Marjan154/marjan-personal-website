@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter as Router, Route, withRouter } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
-import Portfolio from "./components/Portfolio"
-import Contact from "./components/Contact"
-import Navbar from "./components/Navbar"
-import './App.css';
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import "./App.css";
 
 function App() {
   return (
@@ -17,7 +17,6 @@ function App() {
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
       </Router>
-
     </div>
   );
 }
