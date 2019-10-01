@@ -1,5 +1,8 @@
 .intro {
   display: inline-flex;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
 }
 .intro h1 {
   z-index: 0;
@@ -12,16 +15,18 @@
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
-.home {
+/* .home {
   padding-top: 20%;
   position: relative;
-}
+} */
 
 .color {
   background-color: #14b8af;
 }
 
 .homeSection {
+  display: flex;
+  align-items: center;
   height: 100vh;
   width: 100vw;
 }
