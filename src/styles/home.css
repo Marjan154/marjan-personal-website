@@ -3,6 +3,7 @@
   width: 100vw;
 }
 .intro h1 {
+  z-index: 0;
   color: #616161;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid #14b8af; /* The typwriter cursor */
@@ -14,6 +15,7 @@
 
 .home {
   padding-top: 20%;
+  position: relative;
 }
 
 .color {
@@ -35,7 +37,7 @@
     width: 0;
   }
   to {
-    width: 100%;
+    width: 40%;
   }
 }
 
@@ -46,6 +48,6 @@
     border-color: transparent;
   }
   50% {
-    border-color: orange;
+    border-color: #14b8af;
   }
 }
