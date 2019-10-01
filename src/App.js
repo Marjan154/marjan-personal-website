@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, withRouter } from "react-router-dom";
+import { HashRouter as Router, Route, withRouter } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/">
         <Navbar />
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
