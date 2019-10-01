@@ -36,6 +36,13 @@
   background-color: #14b8af;
 }
 
+.homeSection.bg {
+  background-image: url(../images/t2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 /* The typing effect */
 @keyframes typing {
   from {

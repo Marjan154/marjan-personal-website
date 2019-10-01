@@ -13,6 +13,8 @@ class Home extends Component {
         </div>
         <div className="homeSection color"></div>
         <div className="homeSection"></div>
+        <div className="homeSection bg"></div>
+        <div className="homeSection"></div>
       </div>
     );
   }
