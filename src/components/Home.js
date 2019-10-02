@@ -14,7 +14,9 @@ class Home extends Component {
         <div className="homeSection color">
           {/* <div className="container"> */}
           <div className="words slide left">Some amazing content here.</div>
-          <div className="words slide right">Some more amazing content</div>
+          <div className="words slide right">
+            Some very interesting information
+          </div>
           {/* </div> */}
         </div>
         <div className="homeSection"></div>
