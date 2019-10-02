@@ -6,12 +6,17 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className="homeSection">
+        <div className="landing">
           <div className="intro">
             <h1>Hi, My name is Marjan...</h1>
           </div>
         </div>
-        <div className="homeSection color"></div>
+        <div className="homeSection color">
+          {/* <div className="container"> */}
+          <div className="words slide left">Some amazing content here.</div>
+          <div className="words slide right">Some more amazing content</div>
+          {/* </div> */}
+        </div>
         <div className="homeSection"></div>
         <div className="homeSection bg"></div>
         <div className="homeSection"></div>
