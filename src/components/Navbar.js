@@ -15,8 +15,13 @@ function Navbar() {
           <Link to="/About/">About</Link>{" "}
         </li>
         <li>
-          {" "}
-          <Link to="/Portfolio/">Portfolio</Link>{" "}
+          <a
+            href="https://fmundergrad.hunter.cuny.edu/~ansarm/medp285/"
+            target="_blank"
+          >
+            Classwork
+          </a>{" "}
+          {/* <Link to="/Portfolio/">Portfolio</Link>{" "} */}
         </li>
         <li>
           {" "}
