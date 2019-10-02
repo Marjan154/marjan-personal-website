@@ -1,4 +1,5 @@
 import React from "react";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import { HashRouter as Router, Route, withRouter } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";

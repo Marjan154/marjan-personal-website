@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Carousel from "./Carousel";
 import styles from "../styles/home.css";
 
 class Home extends Component {
@@ -12,14 +13,14 @@ class Home extends Component {
           </div>
         </div>
         <div className="homeSection color">
-          {/* <div className="container"> */}
           <div className="words slide left">Some amazing content here.</div>
           <div className="words slide right">
             Some very interesting information
           </div>
-          {/* </div> */}
         </div>
-        <div className="homeSection"></div>
+        <div className="homeSection">
+          <Carousel />
+        </div>
         <div className="homeSection bg"></div>
         <div className="homeSection"></div>
       </div>
