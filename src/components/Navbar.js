@@ -12,7 +12,7 @@ function Navbar() {
         </li>
         <li>
           {" "}
-          <Link to="/About/">About</Link>{" "}
+          <Link to="/about/">About</Link>{" "}
         </li>
         <li>
           <a
@@ -25,7 +25,7 @@ function Navbar() {
         </li>
         <li>
           {" "}
-          <Link to="/Account/">Contact</Link>{" "}
+          <Link to="/contact/">Contact</Link>{" "}
         </li>
         <li>
           <a href="https://ansarmarjan154.wixsite.com/website" target="_blank">
