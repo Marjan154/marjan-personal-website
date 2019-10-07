@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/marjan-personal-website/static/css/main.2088f95a.chunk.css",
+    "main.css": "/marjan-personal-website/static/css/main.ae8ec01d.chunk.css",
     "main.js": "/marjan-personal-website/static/js/main.7edc182a.chunk.js",
     "main.js.map": "/marjan-personal-website/static/js/main.7edc182a.chunk.js.map",
     "runtime-main.js": "/marjan-personal-website/static/js/runtime-main.dd45b5c1.js",
@@ -9,10 +9,10 @@
     "static/js/2.2e1fdcbd.chunk.js": "/marjan-personal-website/static/js/2.2e1fdcbd.chunk.js",
     "static/js/2.2e1fdcbd.chunk.js.map": "/marjan-personal-website/static/js/2.2e1fdcbd.chunk.js.map",
     "index.html": "/marjan-personal-website/index.html",
-    "precache-manifest.bd84be7b3b4b20e2989a88a64e5b280d.js": "/marjan-personal-website/precache-manifest.bd84be7b3b4b20e2989a88a64e5b280d.js",
+    "precache-manifest.d2b1114a0f5634e11d022ff8428928c7.js": "/marjan-personal-website/precache-manifest.d2b1114a0f5634e11d022ff8428928c7.js",
     "service-worker.js": "/marjan-personal-website/service-worker.js",
     "static/css/2.1fd2b905.chunk.css.map": "/marjan-personal-website/static/css/2.1fd2b905.chunk.css.map",
-    "static/css/main.2088f95a.chunk.css.map": "/marjan-personal-website/static/css/main.2088f95a.chunk.css.map",
+    "static/css/main.ae8ec01d.chunk.css.map": "/marjan-personal-website/static/css/main.ae8ec01d.chunk.css.map",
     "static/media/home.css": "/marjan-personal-website/static/media/t2.1b42f922.jpg"
   }
 }
