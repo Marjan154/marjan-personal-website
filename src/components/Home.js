@@ -18,10 +18,13 @@ class Home extends Component {
             Some very interesting information
           </div>
         </div>
-        <div className="homeSection">
-          <Carousel />
+        <div className="homeSection bg">
+          <span className="homeSection bg-text">
+            I SHOULD PROBABLY USE SVG FOR THIS IN THE FUTURE.
+          </span>
         </div>
-        <div className="homeSection bg"></div>
+        <div className="homeSection color">{/* <Carousel /> */}</div>
+
         <div className="homeSection"></div>
       </div>
     );
