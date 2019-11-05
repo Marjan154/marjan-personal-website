@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:300,500");
 
+#nav-container {
+  width: 100%;
+  background: transparent;
+  float: right;
+  z-index: 1;
+}
 nav {
   height: 30px;
-  width: 100%;
   padding: 0;
   margin: 0;
-  z-index: 1;
 }
 nav ul {
   top: 0;
@@ -18,7 +22,7 @@ nav ul {
   align-content: flex-start;
   justify-content: center;
   align-items: center;
-  background: white;
+  background: transparent;
   transition: top 0.3s;
 }
 

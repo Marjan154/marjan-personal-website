@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Carousel from "./Carousel";
 import styles from "../styles/home.css";
 
+import About from "./About";
+
 class Home extends Component {
   state = {};
   render() {
@@ -13,16 +15,14 @@ class Home extends Component {
           </div>
         </div>
         <div className="homeSection color">
-          <div className="words slide left">Some amazing content here.</div>
-          <div className="words slide right">
-            Some very interesting information
-          </div>
+          <About />
         </div>
         <div className="homeSection bg">
           <span className="homeSection bg-text">
-            I SHOULD PROBABLY USE SVG FOR THIS IN THE FUTURE.
+            I SHOULD PROABABLY USE SVG FOR THIS
           </span>
         </div>
+        <div></div>
         <div className="homeSection color">{/* <Carousel /> */}</div>
 
         <div className="homeSection"></div>

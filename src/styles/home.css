@@ -25,10 +25,10 @@
 }
 .words {
   font-family: "Quicksand", sans-serif;
-  font-size: 70px;
+  font-size: 50px;
   color: white;
   word-wrap: break-word;
-  width: 600px;
+  width: 800px;
 }
 
 .landing {
@@ -39,6 +39,10 @@
   align-items: center;
   height: 85vh;
   width: 100vw;
+}
+
+.headshot {
+  float: left;
 }
 
 .homeSection {
