@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Carousel from "./Carousel";
 import styles from "../styles/home.css";
 import AnimateSection from "./AnimateSection";
+import Bounce from "react-reveal/Bounce";
+import Reveal from "react-reveal/Reveal";
 
 import About from "./About";
 
@@ -34,22 +36,32 @@ class Home extends Component {
             I ABSOLUTELY LOVE ALL THINGS TECHNOLOGY
           </span>
         </div>
-        <div></div>
         <div className="homeSection color">
-          <div>
-            <AnimateSection stylename="fall1" prefix="word fall-text">
-              I love art
-            </AnimateSection>
-            <AnimateSection stylename="fall2" prefix="word fall-text">
-              I love meeting new people
-            </AnimateSection>
-            <AnimateSection stylename="fall3" prefix="word fall-text">
-              I love travelling
-            </AnimateSection>
+          <div className="wordColorSize">
+            <div className="rotateRight">
+              <Bounce top delay={900}>
+                I love art
+              </Bounce>
+            </div>
+
+            <div className="rotateLeft">
+              <Bounce top delay={600}>
+                <div>I love travelling</div>
+              </Bounce>
+            </div>
+
+            <Bounce top delay={300}>
+              I love animals
+            </Bounce>
+
+            <Bounce top>I love meeting new people</Bounce>
           </div>
+
           <div className="words">
-            I am passionate about learning new technologies and am excited by
-            all the possibilities in cybersecurity.
+            <AnimateSection prefix="fade-in-section" stylename="is-visible">
+              I am passionate about learning new technologies and am excited by
+              all the possibilities in cybersecurity.
+            </AnimateSection>
           </div>
         </div>
 
