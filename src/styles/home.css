@@ -223,6 +223,17 @@ i.fa {
   color: white;
 }
 
+i.fa.fa-facebook-official {
+  color: white;
+}
+
+i.fa.fa-github {
+  color: white;
+}
+i.fa.fa-linkedin {
+  color: white;
+}
+
 @keyframes movingTopToBottom {
   0% {
     top: -500px;
