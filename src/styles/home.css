@@ -219,6 +219,10 @@ i {
   padding: 50px;
 }
 
+i.fa {
+  color: white;
+}
+
 @keyframes movingTopToBottom {
   0% {
     top: -500px;
