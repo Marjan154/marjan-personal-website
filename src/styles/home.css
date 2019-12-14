@@ -28,7 +28,7 @@
   font-size: 50px;
   color: white;
   word-wrap: break-word;
-  width: 800px;
+  width: 45vw;
 }
 
 .wordColorSize {
@@ -92,7 +92,7 @@
 }
 
 .rotateRight {
-  transform: rotate(-3deg);
+  transform: rotate(-5deg);
 }
 .word.fall-text {
   opacity: 0;

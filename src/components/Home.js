@@ -37,24 +37,40 @@ class Home extends Component {
           </span>
         </div>
         <div className="homeSection color">
-          <div className="wordColorSize">
+          <div className="wordColorSize" style={{ float: "left" }}>
             <div className="rotateRight">
-              <Bounce top delay={900}>
-                I love art
+              <Bounce top delay={1200}>
+                <div
+                  style={{
+                    backgroundColor: "white",
+                    color: "#14b8af"
+                  }}
+                >
+                  I love art
+                </div>
               </Bounce>
             </div>
-
             <div className="rotateLeft">
-              <Bounce top delay={600}>
-                <div>I love travelling</div>
+              <Bounce top delay={900}>
+                <div style={{ margin: "20px" }}>I love travelling</div>
               </Bounce>
             </div>
-
-            <Bounce top delay={300}>
-              I love animals
+            <Bounce top delay={600}>
+              <div style={{ backgroundColor: "white", color: "#14b8af" }}>
+                I love animals
+              </div>
             </Bounce>
 
-            <Bounce top>I love meeting new people</Bounce>
+            <div className="rotateLeft">
+              <Bounce top delay={300}>
+                <div style={{ margin: "20px" }}>I love meeting new people</div>
+              </Bounce>
+            </div>
+            <Bounce top>
+              <div style={{ backgroundColor: "white", color: "#14b8af" }}>
+                I love meeting reading
+              </div>
+            </Bounce>
           </div>
 
           <div className="words">
