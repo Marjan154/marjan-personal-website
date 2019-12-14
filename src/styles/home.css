@@ -25,7 +25,7 @@
 }
 .words {
   font-family: "Quicksand", sans-serif;
-  font-size: 7vh;
+  font-size: 3.5vw;
   color: white;
   word-wrap: break-word;
   width: 45vw;
@@ -34,7 +34,7 @@
 
 .wordColorSize {
   font-family: "Quicksand", sans-serif;
-  font-size: 50px;
+  font-size: 3.5vw;
   color: white;
 }
 
