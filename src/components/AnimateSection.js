@@ -12,7 +12,7 @@ const AnimateSection = props => {
   }, []);
   return (
     <div
-      className={`word fall-text ${isVisible ? props.stylename : ""}`}
+      className={`${props.prefix} ${isVisible ? props.stylename : ""}`}
       ref={domRef}
     >
       {props.children}

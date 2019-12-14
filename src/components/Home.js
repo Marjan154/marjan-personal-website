@@ -37,11 +37,19 @@ class Home extends Component {
         <div></div>
         <div className="homeSection color">
           <div>
-            <AnimateSection stylename="fall1">I love art</AnimateSection>
-            <AnimateSection stylename="fall2">
+            <AnimateSection stylename="fall1" prefix="word fall-text">
+              I love art
+            </AnimateSection>
+            <AnimateSection stylename="fall2" prefix="word fall-text">
               I love meeting new people
             </AnimateSection>
-            <AnimateSection stylename="fall3">I love travelling</AnimateSection>
+            <AnimateSection stylename="fall3" prefix="word fall-text">
+              I love travelling
+            </AnimateSection>
+          </div>
+          <div className="words">
+            I am passionate about learning new technologies and am excited by
+            all the possibilities in cybersecurity.
           </div>
         </div>
 
