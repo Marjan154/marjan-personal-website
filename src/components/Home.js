@@ -19,7 +19,7 @@ class Home extends Component {
         </div>
         <div className="homeSection bg">
           <span className="homeSection bg-text">
-            I SHOULD PROABABLY USE SVG FOR THIS
+            I ABSOLUTELY LOVE ALL THINGS TECHNOLOGY
           </span>
         </div>
         <div></div>
