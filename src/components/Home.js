@@ -83,7 +83,7 @@ class Home extends Component {
               then, I have been designing websites in HTML/CSS and UI Frameworks
               in my free time.
             </p>
-            <h3 style={{ width: "inherit" }}>Design Tools</h3>
+            <h3>Design Tools</h3>
             <ul>
               <li>PhotoShop</li>
               <li>Adobe Illustrator</li>
@@ -100,11 +100,11 @@ class Home extends Component {
               I love frontend development. My most recent experience involves
               writing applications in React, React Native and NodeJS.
             </p>
-            <h3 style={{ width: "inherit" }}>Languages</h3>
+            <h3>Languages</h3>
 
             <p> C++, Javascript, Python</p>
 
-            <h3 style={{ width: "inherit" }}>Tools/Technologies</h3>
+            <h3>Tools/Technologies</h3>
             <ul>
               <li>React</li>
               <li>Redux</li>
@@ -122,7 +122,7 @@ class Home extends Component {
               teaching others and offering mentorship to encourage others to
               work in the technology field.
             </p>
-            <h3 style={{ width: "inherit" }}>Experiences</h3>
+            <h3>Experiences</h3>
             <p>
               Board Member and Web developer of non profit organization
               Bangladesh Development Project

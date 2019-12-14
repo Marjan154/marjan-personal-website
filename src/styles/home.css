@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:300,500");
-@import url("http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 html,
 body {
@@ -51,7 +51,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  height: 85vh;
+  min-height: 85vh;
   width: 100vw;
 }
 
@@ -84,14 +84,13 @@ body {
   justify-content: center;
   align-content: center;
   flex-flow: row wrap;
-  width: 420px;
-  /* min-width: 100px; */
+  max-width: 420px;
   min-height: 20vh;
-  /* height: 500px; */
   box-shadow: 0 4px 16px #616161;
   border-radius: 40px;
   word-wrap: break-word;
   line-height: 20px;
+  margin: 15px;
   float: top;
 }
 .card p {
@@ -101,6 +100,11 @@ body {
 
 .card h3 {
   color: #14b8af;
+  width: 100%;
+}
+
+.card h1 {
+  width: 100%;
 }
 
 .card-container {
@@ -116,9 +120,8 @@ body {
   align-content: center;
   justify-content: space-around;
   flex-flow: row wrap;
-  height: 100vh;
   width: 100vw;
-  max-height: 300vh;
+  min-height: 100vh;
   font-family: "Quicksand", sans-serif;
 }
 
@@ -219,21 +222,25 @@ i {
   padding: 50px;
 }
 
-i.fa {
+i.fas {
   color: white;
 }
 
-i.fa.fa-facebook-official {
+i.fas.fa-facebook-official {
   color: white;
 }
 
-i.fa.fa-github {
+i.fas.fa-github {
   color: white;
 }
-i.fa.fa-linkedin {
+i.fas.fa-linkedin {
   color: white;
 }
 
+.facebook.square.icon {
+  color: white;
+  font-size: 30px;
+}
 @keyframes movingTopToBottom {
   0% {
     top: -500px;
