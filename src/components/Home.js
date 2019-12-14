@@ -68,7 +68,7 @@ class Home extends Component {
             </div>
             <Bounce top>
               <div style={{ backgroundColor: "white", color: "#14b8af" }}>
-                I love meeting reading
+                I love reading
               </div>
             </Bounce>
           </div>
