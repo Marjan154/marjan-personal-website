@@ -10,25 +10,16 @@ function Navbar() {
       <nav className="nav">
         <ul>
           <li>
-            {" "}
-            <Link to="/">Home</Link>{" "}
+            <Link to="/">Home</Link>
           </li>
           <li>
-            {" "}
-            <Link to="#About">About</Link>{" "}
+            <Link to="#About">About</Link>
           </li>
           <li>
-            <a
-              href="https://fmundergrad.hunter.cuny.edu/~ansarm/medp285/"
-              target="_blank"
-            >
-              Classwork
-            </a>{" "}
-            {/* <Link to="/Portfolio/">Portfolio</Link>{" "} */}
+            <Link to="#Resume">Resume</Link>
           </li>
           <li>
-            {" "}
-            <Link to="#Contact">Contact</Link>{" "}
+            <Link to="#Contact">Contact</Link>
           </li>
           <li>
             <a

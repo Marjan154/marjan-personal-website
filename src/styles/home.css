@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:300,500");
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css");
+
+html,
+body {
+  height: 100%;
+  position: relative;
+}
 
 .intro {
   display: inline-flex;
@@ -25,7 +32,7 @@
 }
 .words {
   font-family: "Quicksand", sans-serif;
-  font-size: 3.5vw;
+  font-size: 3vw;
   color: white;
   word-wrap: break-word;
   width: 45vw;
@@ -50,16 +57,69 @@
 
 .headshot {
   float: left;
-  max-height: 50vh;
+}
+.headshot img {
+  border-radius: 10px;
+  border: 4px solid white;
+  box-shadow: 0 4px 16px #616161;
+}
+
+.view-resume {
+  background-color: #616161;
+  font-family: "Quicksand", sans-serif;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 15px 2px 30px;
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row wrap;
+  width: 420px;
+  /* min-width: 100px; */
+  min-height: 20vh;
+  /* height: 500px; */
+  box-shadow: 0 4px 16px #616161;
+  border-radius: 40px;
+  word-wrap: break-word;
+  line-height: 20px;
+  float: top;
+}
+.card p {
+  width: 25vw;
+  color: #616161;
+}
+
+.card h3 {
+  color: #14b8af;
+}
+
+.card-container {
+  display: flex;
+  align-content: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 30px;
 }
 
 .homeSection {
-  align-items: center;
-  justify-content: space-around;
   display: flex;
+  align-content: center;
+  justify-content: space-around;
   flex-flow: row wrap;
   height: 100vh;
   width: 100vw;
+  max-height: 300vh;
+  font-family: "Quicksand", sans-serif;
 }
 
 .homeSection.color {
@@ -72,7 +132,6 @@
   display: inline-block;
   padding: 10px;
   font-weight: bold;
-  font-family: arial;
   color: transparent;
   font-size: 9.5vw;
   font-family: "Quicksand", sans-serif;
@@ -96,46 +155,6 @@
 .rotateRight {
   transform: rotate(-5deg);
 }
-.word.fall-text {
-  opacity: 0;
-  visibility: hidden;
-  padding: 0;
-  font-family: "Quicksand", sans-serif;
-  font-size: 50px;
-  color: white;
-  position: relative;
-  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
-  will-change: opacity, visibility;
-}
-
-.word.fall-text.fall1 {
-  animation-name: movingTopToBottom;
-  animation-duration: 0.1s;
-  animation-fill-mode: forwards;
-  animation-timing-function: linear;
-  transform: rotate(5deg);
-  opacity: 1;
-  visibility: visible;
-}
-
-.word.fall-text.fall2 {
-  animation-name: movingTopToBottom;
-  animation-duration: 0.1s;
-  animation-fill-mode: forwards;
-  animation-timing-function: linear;
-  opacity: 1;
-  visibility: visible;
-}
-
-.word.fall-text.fall3 {
-  transform: rotate(-5deg);
-  animation-name: movingTopToBottom;
-  animation-duration: 0.1s;
-  animation-fill-mode: forwards;
-  animation-timing-function: linear;
-  opacity: 1;
-  visibility: visible;
-}
 
 .fade-in-section {
   opacity: 0;
@@ -148,6 +167,56 @@
   opacity: 1;
   visibility: visible;
   transform: none;
+}
+
+.main-container {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /* height of your footer */
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 15vh;
+  background-color: #14b8af;
+}
+.footer ul {
+  text-decoration: none;
+}
+
+.twitter.square.icon {
+  color: white;
+  font-size: 30px;
+}
+
+.facebook.square.icon {
+  color: white;
+  font-size: 30px;
+}
+
+.instagram.icon {
+  color: white;
+  vertical-align: baseline !important;
+  font-size: 30px;
+}
+
+.linkedin.square.icon {
+  color: white;
+  font-size: 30px;
+}
+
+.footer {
+  font-size: 50px;
+  bottom: 0;
+  height: 20vh;
+}
+
+i {
+  color: white;
+  padding: 50px;
 }
 
 @keyframes movingTopToBottom {
