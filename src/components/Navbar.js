@@ -28,7 +28,7 @@ function Navbar() {
           </li>
           <li>
             {" "}
-            <Link to="/contact/">Contact</Link>{" "}
+            <Link to="#Contact">Contact</Link>{" "}
           </li>
           <li>
             <a
