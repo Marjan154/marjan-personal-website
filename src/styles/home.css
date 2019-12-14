@@ -25,10 +25,11 @@
 }
 .words {
   font-family: "Quicksand", sans-serif;
-  font-size: 50px;
+  font-size: 7vh;
   color: white;
   word-wrap: break-word;
   width: 45vw;
+  max-height: 50vh;
 }
 
 .wordColorSize {
@@ -49,6 +50,7 @@
 
 .headshot {
   float: left;
+  max-height: 50vh;
 }
 
 .homeSection {
