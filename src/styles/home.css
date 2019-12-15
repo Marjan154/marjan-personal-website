@@ -36,7 +36,10 @@ body {
   color: white;
   word-wrap: break-word;
   width: 45vw;
-  max-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
 }
 
 .wordColorSize {
