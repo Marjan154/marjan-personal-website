@@ -21,7 +21,14 @@ class Home extends Component {
         </div>
         <div className="homeSection bg">
           <span className="homeSection bg-text">
-            DEVELOPER. DESIGNER. TECHNOLOGIST.
+            <span
+              style={{
+                fontSize: "30px"
+              }}
+            >
+              I'm always looking to
+            </span>
+            DEVELOP. <br /> DESIGN. COLLABORATE.
           </span>
         </div>
         <div className="homeSection color">
