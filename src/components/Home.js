@@ -84,7 +84,7 @@ class Home extends Component {
               in my free time.
             </p>
             <h3>Design Tools</h3>
-            <ul>
+            <ul style={{ color: "#616161" }}>
               <li>PhotoShop</li>
               <li>Adobe Illustrator</li>
               <li>HTML/CSS</li>
