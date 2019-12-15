@@ -106,7 +106,7 @@ class Home extends Component {
             <p> C++, Javascript, Python</p>
 
             <h3>Tools/Technologies</h3>
-            <ul>
+            <ul style={{ color: "#616161" }}>
               <li>React</li>
               <li>Redux</li>
               <li>Express</li>
