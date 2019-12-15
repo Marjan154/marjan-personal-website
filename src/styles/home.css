@@ -32,10 +32,11 @@ body {
 }
 .words {
   font-family: "Quicksand", sans-serif;
-  font-size: 3vw;
+  font-size: 3em;
   color: white;
   word-wrap: break-word;
-  width: 45vw;
+  width: 700px;
+  /* min-width: 45vw; */
   display: flex;
   justify-content: center;
   align-self: center;
