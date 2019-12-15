@@ -21,7 +21,7 @@ class Home extends Component {
         </div>
         <div className="homeSection bg">
           <span className="homeSection bg-text">
-            I ABSOLUTELY LOVE ALL THINGS TECHNOLOGY
+            DEVELOPER. DESIGNER. TECHNOLOGIST.
           </span>
         </div>
         <div className="homeSection color">
