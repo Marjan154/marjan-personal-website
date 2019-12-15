@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e32c12a9c4ec86d3e47154dd45397db",
+    "revision": "3ce0ee367c24abe0406cee3b38e24b7d",
     "url": "/marjan-personal-website/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marjan-personal-website/static/css/2.1fd2b905.chunk.css"
   },
   {
-    "revision": "f45674bf778c441c6683",
-    "url": "/marjan-personal-website/static/css/main.470b2e97.chunk.css"
+    "revision": "c5492b21f22d7183372f",
+    "url": "/marjan-personal-website/static/css/main.0545692c.chunk.css"
   },
   {
     "revision": "2042ff2d83d8d4557828",
     "url": "/marjan-personal-website/static/js/2.805d6f6f.chunk.js"
   },
   {
-    "revision": "f45674bf778c441c6683",
-    "url": "/marjan-personal-website/static/js/main.9672612d.chunk.js"
+    "revision": "c5492b21f22d7183372f",
+    "url": "/marjan-personal-website/static/js/main.c9aad068.chunk.js"
   },
   {
     "revision": "92814015ebbf7d181e73",
