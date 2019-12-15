@@ -97,9 +97,9 @@ class Home extends Component {
           <div className="card">
             <h1>Skills</h1>
             <p>
-              I love frontend development. My most notable experience involves
-              working with web and mobile applications in React, React Native
-              and NodeJS.
+              I am a lover of frontend development. My most notable experience
+              involves working with web and mobile applications in React, React
+              Native and NodeJS.
             </p>
             <h3>Languages</h3>
 
