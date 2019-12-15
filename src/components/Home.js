@@ -84,13 +84,13 @@ class Home extends Component {
               in my free time.
             </p>
             <h3>Design Tools</h3>
-            <ul style={{ color: "#616161" }}>
+            <ul style={{ color: "#616161", width: "inherit" }}>
               <li>PhotoShop</li>
               <li>Adobe Illustrator</li>
               <li>HTML/CSS</li>
               <li>Pen and Paper</li>
             </ul>
-            <p>
+            <p style={{ width: "inherit" }}>
               Though I am a beginner, I have always been an artist at heart.
             </p>
           </div>
@@ -106,7 +106,7 @@ class Home extends Component {
             <p> C++, Javascript, Python</p>
 
             <h3>Tools/Technologies</h3>
-            <ul style={{ color: "#616161" }}>
+            <ul style={{ color: "#616161", width: "inherit" }}>
               <li>React</li>
               <li>Redux</li>
               <li>Express</li>
@@ -124,11 +124,11 @@ class Home extends Component {
               work in the technology field.
             </p>
             <h3>Experiences</h3>
-            <p>
+            <p style={{ width: "inherit" }}>
               Board Member and Web developer of non profit organization
               Bangladesh Development Project
             </p>
-            <p>
+            <p style={{ width: "inherit" }}>
               Teachers assistant for a web development course of 30+ students
               and mentoring individuals.
             </p>
