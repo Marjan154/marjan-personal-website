@@ -97,8 +97,9 @@ class Home extends Component {
           <div className="card">
             <h1>Skills</h1>
             <p>
-              I love frontend development. My most recent experience involves
-              writing applications in React, React Native and NodeJS.
+              I love frontend development. My most notable experience involves
+              working with web and mobile applications in React, React Native
+              and NodeJS.
             </p>
             <h3>Languages</h3>
 
@@ -117,8 +118,8 @@ class Home extends Component {
             <h1>Other</h1>
             <p>
               I am an avid learner who loves working with like-minded people. I
-              am dedicated and detail oriented and willing to work hard at any
-              task that is given to me. I am a human rights activist. I love
+              am dedicated, detail oriented and a hard worker. I am a human
+              rights activist who wants to change lives with technology. I love
               teaching others and offering mentorship to encourage others to
               work in the technology field.
             </p>
