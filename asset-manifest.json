@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/marjan-personal-website/static/css/main.7df47c31.chunk.css",
-    "main.js": "/marjan-personal-website/static/js/main.5d469d7b.chunk.js",
-    "main.js.map": "/marjan-personal-website/static/js/main.5d469d7b.chunk.js.map",
-    "runtime-main.js": "/marjan-personal-website/static/js/runtime-main.dd45b5c1.js",
-    "runtime-main.js.map": "/marjan-personal-website/static/js/runtime-main.dd45b5c1.js.map",
-    "static/css/2.1fd2b905.chunk.css": "/marjan-personal-website/static/css/2.1fd2b905.chunk.css",
-    "static/js/2.805d6f6f.chunk.js": "/marjan-personal-website/static/js/2.805d6f6f.chunk.js",
-    "static/js/2.805d6f6f.chunk.js.map": "/marjan-personal-website/static/js/2.805d6f6f.chunk.js.map",
-    "index.html": "/marjan-personal-website/index.html",
-    "precache-manifest.63dea88da0ceaadead012c0869e2aee0.js": "/marjan-personal-website/precache-manifest.63dea88da0ceaadead012c0869e2aee0.js",
-    "service-worker.js": "/marjan-personal-website/service-worker.js",
-    "static/css/2.1fd2b905.chunk.css.map": "/marjan-personal-website/static/css/2.1fd2b905.chunk.css.map",
-    "static/css/main.7df47c31.chunk.css.map": "/marjan-personal-website/static/css/main.7df47c31.chunk.css.map",
-    "static/media/ResumeWebsite.pdf": "/marjan-personal-website/static/media/ResumeWebsite.6db2652a.pdf",
-    "static/media/headshot.jpg": "/marjan-personal-website/static/media/headshot.ef12f9a9.jpg",
-    "static/media/home.css": "/marjan-personal-website/static/media/t2.1b42f922.jpg"
+    "main.css": "/static/css/main.cc4a92fa.chunk.css",
+    "main.js": "/static/js/main.91f6d2be.chunk.js",
+    "main.js.map": "/static/js/main.91f6d2be.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b1066a47.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b1066a47.js.map",
+    "static/css/2.1fd2b905.chunk.css": "/static/css/2.1fd2b905.chunk.css",
+    "static/js/2.805d6f6f.chunk.js": "/static/js/2.805d6f6f.chunk.js",
+    "static/js/2.805d6f6f.chunk.js.map": "/static/js/2.805d6f6f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.15171b3ff9b88866360728f303a17bcf.js": "/precache-manifest.15171b3ff9b88866360728f303a17bcf.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.1fd2b905.chunk.css.map": "/static/css/2.1fd2b905.chunk.css.map",
+    "static/css/main.cc4a92fa.chunk.css.map": "/static/css/main.cc4a92fa.chunk.css.map",
+    "static/media/ResumeWebsite.pdf": "/static/media/ResumeWebsite.6db2652a.pdf",
+    "static/media/headshot.jpg": "/static/media/headshot.ef12f9a9.jpg",
+    "static/media/home.css": "/static/media/t2.1b42f922.jpg"
   }
 }
