@@ -21,14 +21,6 @@ function Navbar() {
           <li>
             <Link to="#Contact">Contact</Link>
           </li>
-          <li>
-            <a
-              href="https://ansarmarjan154.wixsite.com/website"
-              target="_blank"
-            >
-              Blog
-            </a>
-          </li>
         </ul>
       </nav>
     </div>
