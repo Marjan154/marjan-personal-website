@@ -153,19 +153,21 @@ class Home extends Component {
             <i class="fa fa-github"></i>
           </a>
           <a
-            href="https://www.facebook.com/marjan.ansar"
-            target="_blank"
-            style={{ textDecoration: "none" }}
-          >
-            <i class="fa fa-facebook-official"></i>
-          </a>
-          <a
             href="https://www.linkedin.com/in/marjan-ansar-6481a0153/"
             target="_blank"
             style={{ textDecoration: "none" }}
           >
             <i class="fa fa-linkedin"></i>
           </a>
+          <a
+            href="mailto:ansar.marjan154@gmail.com"
+            style={{ textDecoration: "none" }}
+          >
+            <i class="fa fa-envelope"></i>
+          </a>
+          <div style={{ color: "white", fontSize: ".3em" }}>
+            Designed by Marjan Ansar
+          </div>
         </div>
       </div>
     );

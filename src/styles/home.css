@@ -188,7 +188,8 @@ body {
   background-color: #14b8af;
   font-size: 5vw;
   bottom: 0;
-  height: 20vh;
+  height: 30vh;
+  font-family: "Quicksand", sans-serif;
 }
 
 i {
