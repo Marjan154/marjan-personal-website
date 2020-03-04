@@ -27,16 +27,13 @@ body {
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
-.color {
-  background-color: ;
-}
 .words {
   font-family: "Quicksand", sans-serif;
   font-size: 3vw;
   color: white;
   word-wrap: break-word;
   width: 600px;
-  /* min-width: 45vw; */
+  min-width: 45vw;
   display: flex;
   justify-content: center;
   align-self: center;
@@ -152,15 +149,16 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 .homeSection.bg-text {
+  color: #14b8af;
   background-image: url(../images/t2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 22vh;
 }
 
 .rotateLeft {

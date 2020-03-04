@@ -28,7 +28,9 @@ class Home extends Component {
             >
               I'm always looking to
             </span>
-            DEVELOP. <br /> DESIGN. COLLABORATE.
+            <br />
+            DEVELOP. <br />
+            DESIGN. <br /> COLLABORATE.
           </span>
         </div>
         <div className="homeSection color">
