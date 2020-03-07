@@ -94,9 +94,9 @@ class Home extends Component {
             </p>
             <h3>Design Tools</h3>
             <ul style={{ color: "#616161", width: "inherit" }}>
-              <li>PhotoShop</li>
-              <li>Adobe Illustrator</li>
               <li>HTML/CSS</li>
+              <li>PhotoShop</li>
+              {/* <li>Adobe Illustrator</li> */}
               <li>Pen and Paper</li>
             </ul>
             <p style={{ width: "inherit" }}>
