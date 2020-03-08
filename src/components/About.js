@@ -10,10 +10,10 @@ class About extends Component {
         <div className="homeSection">
           <div className="words">
             <AnimateSection prefix="fade-in-section" stylename="is-visible">
-              I am currently a senior studying computer science at Hunter
+              I am currently a senior majoring in computer science at Hunter
               College and minoring in math. I am passionate about frontend
-              development and I am constantly searching for ways to growing as
-              an engineer and as a person.
+              development and I'm constantly searching for ways to grow as an
+              engineer and as a person.
             </AnimateSection>
           </div>
           <div className="headshot">
