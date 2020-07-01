@@ -23,7 +23,7 @@ class Home extends Component {
           <span className="homeSection bg-text">
             <span
               style={{
-                fontSize: "30px"
+                fontSize: "30px",
               }}
             >
               I'm always looking to
@@ -40,7 +40,7 @@ class Home extends Component {
                 <div
                   style={{
                     backgroundColor: "white",
-                    color: "#14b8af"
+                    color: "#14b8af",
                   }}
                 >
                   I love art
@@ -79,68 +79,81 @@ class Home extends Component {
         </div>
 
         <div className="homeSection" id="Resume">
+          <div className="skills-container">
+            <div className="skills-section">
+              <h1>Design</h1>
+              <p>
+                I have just recently become interested in UI/UX and design.
+                Since then, I have been designing websites in HTML/CSS and UI
+                Frameworks in my free time.
+              </p>
+              <h3>Design Tools</h3>
+              <div className="flag-container">
+                <div className="skill-flag">Figma</div>
+                <div className="skill-flag">HTML5/CSS</div>
+                <div className="skill-flag">Pen and Paper</div>
+              </div>
+
+              <p style={{ width: "inherit" }}>
+                Though I am a beginner, I have always been an artist at heart.
+              </p>
+            </div>
+
+            <div className="skills-section">
+              <h1>Skills</h1>
+              <p>
+                I am a lover of frontend development. My most notable experience
+                involves working with web and mobile applications in React,
+                React Native and NodeJS.
+              </p>
+              <h3>Languages</h3>
+
+              <div className="flag-container">
+                <div className="skill-flag">C++</div>
+                <div className="skill-flag">Javascript</div>
+                <div className="skill-flag">Python</div>
+              </div>
+
+              <h3>Tools/Technologies</h3>
+              <div className="flag-container">
+                <div className="skill-flag">React</div>
+                <div className="skill-flag">React-Native</div>
+                <div className="skill-flag">Redux</div>
+                <div className="skill-flag">Typescript</div>
+                <div className="skill-flag">Express</div>
+                <div className="skill-flag">PostgreSQL</div>
+                <div className="skill-flag">Git</div>
+              </div>
+            </div>
+            <div className="skills-section">
+              <h1>Other</h1>
+              <p>
+                I am an avid learner who loves working with like-minded people.
+                I am dedicated, detail oriented and a hard worker. I am a human
+                rights activist who wants to change lives through technology and
+                education.
+              </p>
+
+              <h3>Experiences</h3>
+              <p style={{ width: "inherit" }}>
+                Board Member and Web developer of non profit organization
+                Bangladesh Development Project
+              </p>
+              <p style={{ width: "inherit" }}>
+                Teachers assistant for a web development course of 30+ students.
+              </p>
+              {/* <h3>Soft Skills</h3>
+              <div className="flag-container">
+                <div className="skill-flag">Teamwork</div>
+                <div className="skill-flag">Empathy</div>
+                <div className="skill-flag">Adaptable</div>
+              </div> */}
+            </div>
+          </div>
           <div style={{ width: "100vw" }}>
-            <a href={require("../images/ResumeWebsite.pdf")} download>
+            <a href={require("../images/ResumeWebsite.pdf")} target="_blank">
               <button className="view-resume">View Resume</button>
             </a>
-          </div>
-
-          <div className="card">
-            <h1>Design</h1>
-            <p>
-              I have just recently become interested in UI/UX and design. Since
-              then, I have been designing websites in HTML/CSS and UI Frameworks
-              in my free time.
-            </p>
-            <h3>Design Tools</h3>
-            <ul style={{ color: "#616161", width: "inherit" }}>
-              <li>HTML/CSS</li>
-              <li>PhotoShop</li>
-              {/* <li>Adobe Illustrator</li> */}
-              <li>Pen and Paper</li>
-            </ul>
-            <p style={{ width: "inherit" }}>
-              Though I am a beginner, I have always been an artist at heart.
-            </p>
-          </div>
-          <div className="card">
-            <h1>Skills</h1>
-            <p>
-              I am a lover of frontend development. My most notable experience
-              involves working with web and mobile applications in React, React
-              Native and NodeJS.
-            </p>
-            <h3>Languages</h3>
-
-            <p> C++, Javascript, Python</p>
-
-            <h3>Tools/Technologies</h3>
-            <ul style={{ color: "#616161", width: "inherit" }}>
-              <li>React</li>
-              <li>Redux</li>
-              <li>Express</li>
-              <li>PostgreSQL</li>
-              <li>Git</li>
-            </ul>
-          </div>
-          <div className="card">
-            <h1>Other</h1>
-            <p>
-              I am an avid learner who loves working with like-minded people. I
-              am dedicated, detail oriented and a hard worker. I am a human
-              rights activist who wants to change lives with technology. I love
-              teaching others and offering mentorship to encourage others to
-              work in the technology field.
-            </p>
-            <h3>Experiences</h3>
-            <p style={{ width: "inherit" }}>
-              Board Member and Web developer of non profit organization
-              Bangladesh Development Project
-            </p>
-            <p style={{ width: "inherit" }}>
-              Teachers assistant for a web development course of 30+ students
-              and mentoring individuals.
-            </p>
           </div>
         </div>
 

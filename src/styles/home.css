@@ -85,42 +85,44 @@ body {
   background-image: linear-gradient(#7e7e7e, #616161, #7e7e7e);
 }
 
-.card {
-  display: flex;
-  justify-content: center;
-  align-content: space-around;
-  flex-flow: row wrap;
-  max-width: 420px;
-  min-height: 20vh;
-  box-shadow: 0 4px 16px #616161;
-  border-radius: 40px;
-  word-wrap: break-word;
-  line-height: 20px;
-  margin: 15px;
-  float: top;
-  border: 2px solid #14b8af;
+.skills-section {
+  width: 390px;
+  text-align: center;
+  padding: 30px;
 }
-.card p {
-  padding: 10px;
-  width: 80vw;
+
+.skills-section p {
   color: #616161;
+  font-size: 17px;
 }
 
-.card h3 {
+.skills-section h1 {
   color: #14b8af;
-  width: 100%;
 }
 
-.card h1 {
-  width: 100%;
+.skill-flag {
+  border: solid 1px #14b8af;
+  color: #14b8af;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 550;
+  max-width: 150px;
 }
 
-.card-container {
+.flag-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 20px;
+  justify-content: center;
+}
+.skills-container {
   display: flex;
   align-content: center;
   flex-flow: row wrap;
-  justify-content: space-around;
-  margin: 30px;
+  justify-content: space-between;
 }
 
 .homeSection {
@@ -186,7 +188,7 @@ body {
   bottom: 0;
   width: 100%;
   background-color: #14b8af;
-  font-size: 5vw;
+  font-size: 5em;
   bottom: 0;
   height: 30vh;
   font-family: "Quicksand", sans-serif;
