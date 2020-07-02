@@ -29,7 +29,7 @@ body {
 
 .words {
   font-family: "Quicksand", sans-serif;
-  font-size: 3vw;
+  font-size: 6vmin;
   color: white;
   word-wrap: break-word;
   width: 600px;
@@ -43,9 +43,9 @@ body {
 
 .wordColorSize {
   font-family: "Quicksand", sans-serif;
-  font-size: 3.5vw;
+  font-size: 7vmin;
   color: white;
-  width: 47vw;
+  width: 47vmax;
 }
 
 .landing {
@@ -147,10 +147,10 @@ body {
   padding: 10px;
   font-weight: bold;
   color: #14b8af;
-  font-size: 9.5vw;
   font-family: "Quicksand", sans-serif;
 }
 .homeSection.bg-text {
+  font-size: 9.5vw;
   color: #14b8af;
   background-image: url(../images/t2.jpg);
   background-size: cover;
